@@ -1,0 +1,57 @@
+# ===== 巨型数据文件（不可提交） =====
+body_trace.jsonl
+cycle_dump_1000.txt
+state_stream.tsv
+desire_log.txt
+desire_*.txt
+*_trace.tsv
+*_trace.txt
+spike_source_trace.tsv
+presence_trace.tsv
+presence_summary.tsv
+heat_decay_trace.tsv
+heat_decay_summary.tsv
+frustration_trace.tsv
+face_recognition_report.tsv
+body_input_queue.tsv
+body_input_offset.txt
+body_state.json
+
+# ===== 输出实验数据（100k行） =====
+luoshen_*.txt
+luoshen_*.glb
+luoshen_preview.png
+
+# ===== 视频/音频输入（很大） =====
+video_input/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 中型日志 =====
+*.log
+_partial_*.txt
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
